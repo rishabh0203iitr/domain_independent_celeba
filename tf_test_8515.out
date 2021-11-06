@@ -1,0 +1,151 @@
+NoDevFiles
+SLURM_JOBID=8515
+SLURM_JOB_NODELIST=iitrdgx
+SLURM_NNODES=1
+SLURMTMPDIR=
+Date              = Sat Nov  6 04:59:33 IST 2021
+Hostname          = iitrdgx
+
+Number of Nodes Allucated      = 1
+Number of Tasks Allocated      = 1
+Number of Cores/Task Allocated = 1
+Working Directory = /raid/ysharma_me/fair_lr/domain_independent
+working directory = /raid/ysharma_me/fair_lr/domain_independent
+/raid/ysharma_me/fair_lr/domain_independent
+iitrdgx
+Sat Nov  6 04:59:33 IST 2021
+NoDevFiles
+CONTAINER ID        IMAGE                                                             COMMAND                  CREATED             STATUS              PORTS                NAMES
+6a0e6b9a648e        pytorchlightning-mod-ysharma/pytorch-lightning:base-conda-try-1   "/opt/nvidia/nvidia_…"   6 minutes ago       Up 6 minutes        6006/tcp, 8888/tcp   8514
+52d7b6f7b32a        nvcr.io/nvidia/tensorflow:21.08-tf2-py3                           "/usr/local/bin/nvid…"   10 days ago         Up 10 days                               dl_vishal
+5b3dadaf6840        pytorchlightning-sahil-g-ma/pytorch-lightning:try-1               "/usr/local/bin/nvid…"   13 days ago         Up 13 days          6006/tcp, 8888/tcp   jolly_perlman
+e3262181f3dd        nvcr.io/nvidia/tensorflow:21.08-tf2-py3                           "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks                               dl_nikhil
+5fb96b4674f3        ishan-k/pytorch-ignite:v2                                         "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   8154
+65bf36b1ff94        nvcr.io/nvidia/tensorflow:21.04-tf2-py3                           "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks                               dgx_a
+36d35c9f5091        ishan-k/pytorch-ignite:v2                                         "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   8131
+7dbc405594df        tali_cs/talift:latest                                             "/bin/bash init.sh"      2 weeks ago         Up 2 weeks                               talift-container
+Sat Nov  6 04:59:33 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.67       Driver Version: 418.67       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  Off  | 00000000:06:00.0 Off |                    0 |
+| N/A   35C    P0    57W / 300W |  32471MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2...  Off  | 00000000:07:00.0 Off |                    0 |
+| N/A   41C    P0    73W / 300W |   4128MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2...  Off  | 00000000:0A:00.0 Off |                    0 |
+| N/A   39C    P0    72W / 300W |   5856MiB / 32480MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2...  Off  | 00000000:0B:00.0 Off |                    0 |
+| N/A   35C    P0    58W / 300W |   4684MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla V100-SXM2...  Off  | 00000000:85:00.0 Off |                    0 |
+| N/A   36C    P0    58W / 300W |  31634MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla V100-SXM2...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   36C    P0    58W / 300W |  31626MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   6  Tesla V100-SXM2...  Off  | 00000000:89:00.0 Off |                    0 |
+| N/A   39C    P0    58W / 300W |    919MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   7  Tesla V100-SXM2...  Off  | 00000000:8A:00.0 Off |                    0 |
+| N/A   37C    P0    58W / 300W |    917MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0     25285      C   /usr/bin/python                            31903MiB |
+|    0     29297      C   /usr/bin/python                              555MiB |
+|    1     21628      C   python                                      3211MiB |
+|    1     25285      C   /usr/bin/python                              461MiB |
+|    1     29297      C   /usr/bin/python                              443MiB |
+|    2     25285      C   /usr/bin/python                              461MiB |
+|    2     29297      C   /usr/bin/python                              443MiB |
+|    2     36171      C   /venv/bin/python3.8                         4937MiB |
+|    3     25285      C   /usr/bin/python                              461MiB |
+|    3     29297      C   /usr/bin/python                              443MiB |
+|    3     36172      C   /venv/bin/python3.8                         3765MiB |
+|    4     19858      C   /venv/bin/python3.8                        30717MiB |
+|    4     25285      C   /usr/bin/python                              461MiB |
+|    4     29297      C   /usr/bin/python                              443MiB |
+|    5     19859      C   /venv/bin/python3.8                        30709MiB |
+|    5     25285      C   /usr/bin/python                              461MiB |
+|    5     29297      C   /usr/bin/python                              443MiB |
+|    6     25285      C   /usr/bin/python                              461MiB |
+|    6     29297      C   /usr/bin/python                              443MiB |
+|    7     25285      C   /usr/bin/python                              461MiB |
+|    7     29297      C   /usr/bin/python                              443MiB |
++-----------------------------------------------------------------------------+
+Error: No such container: 6a0e6b9a648e
+CONTAINER ID        IMAGE                                                             COMMAND                  CREATED             STATUS              PORTS                NAMES
+85e67b767863        pytorchlightning-mod-ysharma/pytorch-lightning:base-conda-try-1   "/opt/nvidia/nvidia_…"   5 seconds ago       Up 3 seconds        6006/tcp, 8888/tcp   8516
+52d7b6f7b32a        nvcr.io/nvidia/tensorflow:21.08-tf2-py3                           "/usr/local/bin/nvid…"   10 days ago         Up 10 days                               dl_vishal
+5b3dadaf6840        pytorchlightning-sahil-g-ma/pytorch-lightning:try-1               "/usr/local/bin/nvid…"   13 days ago         Up 13 days          6006/tcp, 8888/tcp   jolly_perlman
+e3262181f3dd        nvcr.io/nvidia/tensorflow:21.08-tf2-py3                           "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks                               dl_nikhil
+5fb96b4674f3        ishan-k/pytorch-ignite:v2                                         "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   8154
+65bf36b1ff94        nvcr.io/nvidia/tensorflow:21.04-tf2-py3                           "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks                               dgx_a
+36d35c9f5091        ishan-k/pytorch-ignite:v2                                         "/usr/local/bin/nvid…"   2 weeks ago         Up 2 weeks          6006/tcp, 8888/tcp   8131
+7dbc405594df        tali_cs/talift:latest                                             "/bin/bash init.sh"      2 weeks ago         Up 2 weeks                               talift-container
+Sat Nov  6 04:59:45 2021       
++-----------------------------------------------------------------------------+
+| NVIDIA-SMI 418.67       Driver Version: 418.67       CUDA Version: 10.1     |
+|-------------------------------+----------------------+----------------------+
+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|===============================+======================+======================|
+|   0  Tesla V100-SXM2...  Off  | 00000000:06:00.0 Off |                    0 |
+| N/A   35C    P0    57W / 300W |  32471MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   1  Tesla V100-SXM2...  Off  | 00000000:07:00.0 Off |                    0 |
+| N/A   41C    P0    74W / 300W |    917MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   2  Tesla V100-SXM2...  Off  | 00000000:0A:00.0 Off |                    0 |
+| N/A   39C    P0    72W / 300W |   5856MiB / 32480MiB |    100%      Default |
++-------------------------------+----------------------+----------------------+
+|   3  Tesla V100-SXM2...  Off  | 00000000:0B:00.0 Off |                    0 |
+| N/A   35C    P0    58W / 300W |   4684MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   4  Tesla V100-SXM2...  Off  | 00000000:85:00.0 Off |                    0 |
+| N/A   36C    P0    58W / 300W |  31634MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   5  Tesla V100-SXM2...  Off  | 00000000:86:00.0 Off |                    0 |
+| N/A   36C    P0    58W / 300W |  31626MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   6  Tesla V100-SXM2...  Off  | 00000000:89:00.0 Off |                    0 |
+| N/A   39C    P0    58W / 300W |    919MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+|   7  Tesla V100-SXM2...  Off  | 00000000:8A:00.0 Off |                    0 |
+| N/A   37C    P0    59W / 300W |    917MiB / 32480MiB |      0%      Default |
++-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                       GPU Memory |
+|  GPU       PID   Type   Process name                             Usage      |
+|=============================================================================|
+|    0     25285      C   /usr/bin/python                            31903MiB |
+|    0     29297      C   /usr/bin/python                              555MiB |
+|    1     25285      C   /usr/bin/python                              461MiB |
+|    1     29297      C   /usr/bin/python                              443MiB |
+|    2     25285      C   /usr/bin/python                              461MiB |
+|    2     29297      C   /usr/bin/python                              443MiB |
+|    2     36171      C   /venv/bin/python3.8                         4937MiB |
+|    3     25285      C   /usr/bin/python                              461MiB |
+|    3     29297      C   /usr/bin/python                              443MiB |
+|    3     36172      C   /venv/bin/python3.8                         3765MiB |
+|    4     19858      C   /venv/bin/python3.8                        30717MiB |
+|    4     25285      C   /usr/bin/python                              461MiB |
+|    4     29297      C   /usr/bin/python                              443MiB |
+|    5     19859      C   /venv/bin/python3.8                        30709MiB |
+|    5     25285      C   /usr/bin/python                              461MiB |
+|    5     29297      C   /usr/bin/python                              443MiB |
+|    6     25285      C   /usr/bin/python                              461MiB |
+|    6     29297      C   /usr/bin/python                              443MiB |
+|    7     25285      C   /usr/bin/python                              461MiB |
+|    7     29297      C   /usr/bin/python                              443MiB |
++-----------------------------------------------------------------------------+

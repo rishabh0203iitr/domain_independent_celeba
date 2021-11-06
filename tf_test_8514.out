@@ -1,0 +1,64 @@
+0
+SLURM_JOBID=8514
+SLURM_JOB_NODELIST=iitrdgx
+SLURM_NNODES=1
+SLURMTMPDIR=
+Date              = Sat Nov  6 04:53:28 IST 2021
+Hostname          = iitrdgx
+
+Number of Nodes Allucated      = 1
+Number of Tasks Allocated      = 1
+Number of Cores/Task Allocated = 4
+Working Directory = /raid/ysharma_me/fair_lr/domain_independent
+working directory = /raid/ysharma_me/fair_lr/domain_independent
+/raid/ysharma_me/fair_lr/domain_independent
+iitrdgx
+Sat Nov  6 04:53:28 IST 2021
+0
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 21.10 (build 28019337)
+PyTorch Version 1.10.0a0+0aef44c
+
+Container image Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Copyright (c) 2014-2021 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+NVIDIA Deep Learning Profiler (dlprof) Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 11.4 driver version 470.57.02 with kernel driver version 418.67.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+ERROR: Detected MOFED driver 4.0-1.0.1, but this container has version 5.4-rdmacore36.0.
+       Please upgrade to MOFED 4.9 or higher for multi-node operation support.
+
+init
+inout
+datain
+yo
+no
+Training epoch 0: [1|636], loss:1.2590298652648926, accuracy:40.625
+Training epoch 0: [51|636], loss:2.99749493598938, accuracy:40.479473039215684
+Training epoch 0: [101|636], loss:2.6681222915649414, accuracy:44.41909034653465
+Training epoch 0: [151|636], loss:0.7761749625205994, accuracy:46.163596854304636

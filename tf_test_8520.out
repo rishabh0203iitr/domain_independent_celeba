@@ -1,0 +1,279 @@
+0
+SLURM_JOBID=8520
+SLURM_JOB_NODELIST=iitrdgx
+SLURM_NNODES=1
+SLURMTMPDIR=
+Date              = Sat Nov  6 08:53:42 IST 2021
+Hostname          = iitrdgx
+
+Number of Nodes Allucated      = 1
+Number of Tasks Allocated      = 1
+Number of Cores/Task Allocated = 4
+Working Directory = /raid/ysharma_me/fair_lr/domain_independent
+working directory = /raid/ysharma_me/fair_lr/domain_independent
+/raid/ysharma_me/fair_lr/domain_independent
+iitrdgx
+Sat Nov  6 08:53:42 IST 2021
+0
+
+=============
+== PyTorch ==
+=============
+
+NVIDIA Release 21.10 (build 28019337)
+PyTorch Version 1.10.0a0+0aef44c
+
+Container image Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Copyright (c) 2014-2021 Facebook Inc.
+Copyright (c) 2011-2014 Idiap Research Institute (Ronan Collobert)
+Copyright (c) 2012-2014 Deepmind Technologies    (Koray Kavukcuoglu)
+Copyright (c) 2011-2012 NEC Laboratories America (Koray Kavukcuoglu)
+Copyright (c) 2011-2013 NYU                      (Clement Farabet)
+Copyright (c) 2006-2010 NEC Laboratories America (Ronan Collobert, Leon Bottou, Iain Melvin, Jason Weston)
+Copyright (c) 2006      Idiap Research Institute (Samy Bengio)
+Copyright (c) 2001-2004 Idiap Research Institute (Ronan Collobert, Samy Bengio, Johnny Mariethoz)
+Copyright (c) 2015      Google Inc.
+Copyright (c) 2015      Yangqing Jia
+Copyright (c) 2013-2016 The Caffe contributors
+All rights reserved.
+
+NVIDIA Deep Learning Profiler (dlprof) Copyright (c) 2021, NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+Various files include modifications (c) NVIDIA CORPORATION & AFFILIATES.  All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+NOTE: CUDA Forward Compatibility mode ENABLED.
+  Using CUDA 11.4 driver version 470.57.02 with kernel driver version 418.67.
+  See https://docs.nvidia.com/deploy/cuda-compatibility/ for details.
+
+ERROR: Detected MOFED driver 4.0-1.0.1, but this container has version 5.4-rdmacore36.0.
+       Please upgrade to MOFED 4.9 or higher for multi-node operation support.
+
+init
+inout
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /home/user/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0% 0.00/44.7M [00:00<?, ?B/s] 15% 6.74M/44.7M [00:00<00:00, 67.6MB/s] 40% 17.9M/44.7M [00:00<00:00, 96.0MB/s] 65% 29.1M/44.7M [00:00<00:00, 106MB/s]  91% 40.7M/44.7M [00:00<00:00, 112MB/s]100% 44.7M/44.7M [00:00<00:00, 107MB/s]
+datain
+yo
+no
+Training epoch 0: [1|636], loss:1.68487548828125, accuracy:3.90625
+Training epoch 0: [51|636], loss:2.1053106784820557, accuracy:66.12285539215686
+Training epoch 0: [101|636], loss:0.9812899827957153, accuracy:71.2136448019802
+Training epoch 0: [151|636], loss:0.7173960208892822, accuracy:72.65366307947019
+Training epoch 0: [201|636], loss:0.682648777961731, accuracy:73.0604788557214
+Training epoch 0: [251|636], loss:0.9634449481964111, accuracy:73.77988047808765
+Training epoch 0: [301|636], loss:1.216064214706421, accuracy:73.91377699335548
+Training epoch 0: [351|636], loss:0.8406932353973389, accuracy:73.95944622507122
+Training epoch 0: [401|636], loss:2.8112101554870605, accuracy:74.1515352244389
+Training epoch 0: [451|636], loss:1.2858822345733643, accuracy:74.19276607538802
+Training epoch 0: [501|636], loss:0.83512282371521, accuracy:74.30061751497006
+Training epoch 0: [551|636], loss:0.8850639462471008, accuracy:74.47113203266788
+Training epoch 0: [601|636], loss:1.2186601161956787, accuracy:74.55217866056573
+Training epoch 1: [1|636], loss:0.8225086331367493, accuracy:77.34375
+Training epoch 1: [51|636], loss:1.3206841945648193, accuracy:74.19577205882354
+Training epoch 1: [101|636], loss:0.868863582611084, accuracy:74.92651608910892
+Training epoch 1: [151|636], loss:1.1956543922424316, accuracy:75.30008278145695
+Training epoch 1: [201|636], loss:1.5423446893692017, accuracy:74.90282960199005
+Training epoch 1: [251|636], loss:1.2014708518981934, accuracy:74.97509960159363
+Training epoch 1: [301|636], loss:1.4808659553527832, accuracy:75.1609219269103
+Training epoch 1: [351|636], loss:1.1624698638916016, accuracy:75.21256232193733
+Training epoch 1: [401|636], loss:0.810732364654541, accuracy:75.29808291770574
+Training epoch 1: [451|636], loss:1.6280405521392822, accuracy:74.9991338691796
+Training epoch 1: [501|636], loss:0.8820734620094299, accuracy:75.15905688622755
+Training epoch 1: [551|636], loss:0.9279064536094666, accuracy:75.27365018148821
+Training epoch 1: [601|636], loss:1.4325612783432007, accuracy:75.15923980865225
+Training epoch 2: [1|636], loss:1.0213878154754639, accuracy:79.296875
+Training epoch 2: [51|636], loss:1.2534804344177246, accuracy:76.07230392156863
+Training epoch 2: [101|636], loss:3.4629485607147217, accuracy:75.24752475247524
+Training epoch 2: [151|636], loss:0.8256281018257141, accuracy:75.10347682119205
+Training epoch 2: [201|636], loss:0.9540654420852661, accuracy:75.33232276119404
+Training epoch 2: [251|636], loss:1.4559216499328613, accuracy:75.62095368525897
+Training epoch 2: [301|636], loss:0.7472217082977295, accuracy:75.63200789036544
+Training epoch 2: [351|636], loss:0.7644035816192627, accuracy:75.58649394586895
+Training epoch 2: [401|636], loss:1.4752099514007568, accuracy:75.3886767456359
+Training epoch 2: [451|636], loss:1.020645260810852, accuracy:75.63227549889135
+Training epoch 2: [501|636], loss:2.2982711791992188, accuracy:75.43350798403193
+Training epoch 2: [551|636], loss:2.431286096572876, accuracy:75.39629650635209
+Training epoch 2: [601|636], loss:1.1413780450820923, accuracy:75.39972441763727
+Training epoch 3: [1|636], loss:0.8126865029335022, accuracy:78.90625
+Training epoch 3: [51|636], loss:0.7836601734161377, accuracy:75.78890931372548
+Training epoch 3: [101|636], loss:2.2136077880859375, accuracy:75.99783415841584
+Training epoch 3: [151|636], loss:0.9256325960159302, accuracy:75.90542218543047
+Training epoch 3: [201|636], loss:1.2594459056854248, accuracy:75.77347636815921
+Training epoch 3: [251|636], loss:1.030876874923706, accuracy:75.44353834661355
+Training epoch 3: [301|636], loss:1.6414098739624023, accuracy:75.343905730897
+Training epoch 3: [351|636], loss:1.0303462743759155, accuracy:75.43736645299145
+Training epoch 3: [401|636], loss:0.8483512997627258, accuracy:75.71306109725685
+Training epoch 3: [451|636], loss:0.8598982691764832, accuracy:75.59329961197339
+Training epoch 3: [501|636], loss:1.7212297916412354, accuracy:75.6440244510978
+Training epoch 3: [551|636], loss:1.3390990495681763, accuracy:75.61464950090745
+Training epoch 3: [601|636], loss:2.1267850399017334, accuracy:75.53816555740433
+Training epoch 4: [1|636], loss:1.061081886291504, accuracy:77.34375
+Training epoch 4: [51|636], loss:0.8044324517250061, accuracy:76.28676470588235
+Training epoch 4: [101|636], loss:1.0443546772003174, accuracy:76.79842202970298
+Training epoch 4: [151|636], loss:0.763500452041626, accuracy:76.21585264900662
+Training epoch 4: [201|636], loss:1.0714645385742188, accuracy:75.94255286069652
+Training epoch 4: [251|636], loss:1.8435440063476562, accuracy:75.76101842629483
+Training epoch 4: [301|636], loss:1.7571299076080322, accuracy:75.51001868770764
+Training epoch 4: [351|636], loss:1.1609771251678467, accuracy:75.41399572649573
+Training epoch 4: [401|636], loss:1.4778019189834595, accuracy:75.64000155860349
+Training epoch 4: [451|636], loss:0.706108570098877, accuracy:75.63747228381375
+Training epoch 4: [501|636], loss:1.638893723487854, accuracy:75.54344436127745
+Training epoch 4: [551|636], loss:0.7956375479698181, accuracy:75.7096472323049
+Training epoch 4: [601|636], loss:1.165124773979187, accuracy:75.7416025374376
+Training epoch 5: [1|636], loss:0.9698619842529297, accuracy:74.609375
+Training epoch 5: [51|636], loss:1.4893051385879517, accuracy:75.10723039215686
+Training epoch 5: [101|636], loss:1.258251428604126, accuracy:75.53759282178218
+Training epoch 5: [151|636], loss:1.4688583612442017, accuracy:75.14745447019868
+Training epoch 5: [201|636], loss:0.7906315922737122, accuracy:75.53443718905473
+Training epoch 5: [251|636], loss:1.2167623043060303, accuracy:75.66764193227091
+Training epoch 5: [301|636], loss:1.1914210319519043, accuracy:75.58399086378738
+Training epoch 5: [351|636], loss:1.015123963356018, accuracy:75.6721866096866
+Training epoch 5: [401|636], loss:0.9339584112167358, accuracy:75.62441552369077
+Training epoch 5: [451|636], loss:2.560746431350708, accuracy:75.3057441796009
+Training epoch 5: [501|636], loss:0.7750089168548584, accuracy:75.46625499001996
+Training epoch 5: [551|636], loss:1.3472814559936523, accuracy:75.34099931941924
+Training epoch 5: [601|636], loss:1.4724782705307007, accuracy:75.36072691347754
+Training epoch 6: [1|636], loss:0.7663834095001221, accuracy:83.203125
+Training epoch 6: [51|636], loss:0.8687094449996948, accuracy:77.99479166666667
+Training epoch 6: [101|636], loss:1.2035541534423828, accuracy:76.60891089108911
+Training epoch 6: [151|636], loss:1.4855706691741943, accuracy:76.32450331125828
+Training epoch 6: [201|636], loss:1.4600547552108765, accuracy:76.06887437810946
+Training epoch 6: [251|636], loss:0.7047457098960876, accuracy:76.11273655378486
+Training epoch 6: [301|636], loss:0.8713353276252747, accuracy:75.8733907807309
+Training epoch 6: [351|636], loss:0.9545331597328186, accuracy:75.84468482905983
+Training epoch 6: [401|636], loss:1.1326779127120972, accuracy:75.96828241895261
+Training epoch 6: [451|636], loss:1.0543501377105713, accuracy:75.59416574279379
+Training epoch 6: [501|636], loss:1.636242151260376, accuracy:75.63778692614771
+Training epoch 6: [551|636], loss:1.166858434677124, accuracy:75.70752041742287
+Training epoch 6: [601|636], loss:1.8351573944091797, accuracy:75.7708506655574
+Training epoch 7: [1|636], loss:1.9562804698944092, accuracy:62.109375
+Training epoch 7: [51|636], loss:0.8054845929145813, accuracy:75.78125
+Training epoch 7: [101|636], loss:1.629361867904663, accuracy:74.82595915841584
+Training epoch 7: [151|636], loss:1.0520185232162476, accuracy:75.10606374172185
+Training epoch 7: [201|636], loss:1.315385103225708, accuracy:75.3770211442786
+Training epoch 7: [251|636], loss:4.08457612991333, accuracy:75.55247758964144
+Training epoch 7: [301|636], loss:1.3349003791809082, accuracy:75.52429401993355
+Training epoch 7: [351|636], loss:1.3367984294891357, accuracy:75.46407585470085
+Training epoch 7: [401|636], loss:0.9365226030349731, accuracy:75.63026028678304
+Training epoch 7: [451|636], loss:2.359800100326538, accuracy:75.46164772727273
+Training epoch 7: [501|636], loss:1.2310837507247925, accuracy:75.40699850299401
+Training epoch 7: [551|636], loss:4.386531352996826, accuracy:75.55013611615244
+Training epoch 7: [601|636], loss:1.3644391298294067, accuracy:75.4972181780366
+Training epoch 8: [1|636], loss:1.0229512453079224, accuracy:75.390625
+Training epoch 8: [51|636], loss:5.305948257446289, accuracy:74.24172794117646
+Training epoch 8: [101|636], loss:1.5716702938079834, accuracy:74.73700495049505
+Training epoch 8: [151|636], loss:3.7602734565734863, accuracy:75.45271109271523
+Training epoch 8: [201|636], loss:1.818276286125183, accuracy:75.39839863184079
+Training epoch 8: [251|636], loss:1.1124236583709717, accuracy:75.32214890438247
+Training epoch 8: [301|636], loss:1.3434282541275024, accuracy:75.60345722591362
+Training epoch 8: [351|636], loss:0.7598236203193665, accuracy:75.61765491452991
+Training epoch 8: [401|636], loss:1.199773907661438, accuracy:75.542588840399
+Training epoch 8: [451|636], loss:0.7625482678413391, accuracy:75.59503187361419
+Training epoch 8: [501|636], loss:0.8740459680557251, accuracy:75.68456836327346
+Training epoch 8: [551|636], loss:1.0090502500534058, accuracy:75.57636683303085
+Training epoch 8: [601|636], loss:1.333469271659851, accuracy:75.71625415973378
+Training epoch 9: [1|636], loss:0.49343058466911316, accuracy:85.15625
+Training epoch 9: [51|636], loss:0.8886139392852783, accuracy:76.39399509803921
+Training epoch 9: [101|636], loss:2.160372257232666, accuracy:74.67125618811882
+Training epoch 9: [151|636], loss:0.8504236340522766, accuracy:75.54325331125828
+Training epoch 9: [201|636], loss:0.9461294412612915, accuracy:75.45087064676616
+Training epoch 9: [251|636], loss:0.8821674585342407, accuracy:75.62250996015936
+Training epoch 9: [301|636], loss:1.252585768699646, accuracy:75.8046096345515
+Training epoch 9: [351|636], loss:1.5454329252243042, accuracy:75.44293091168092
+Training epoch 9: [401|636], loss:1.5167690515518188, accuracy:75.58642456359102
+Training epoch 9: [451|636], loss:1.0447158813476562, accuracy:75.45991546563192
+Training epoch 9: [501|636], loss:0.9770804047584534, accuracy:75.7251122754491
+Training epoch 9: [551|636], loss:0.642391562461853, accuracy:75.73942264065336
+Training epoch 9: [601|636], loss:1.1210147142410278, accuracy:75.8241472545757
+Training epoch 10: [1|636], loss:2.5416760444641113, accuracy:61.328125
+Training epoch 10: [51|636], loss:0.936176598072052, accuracy:74.47150735294117
+Training epoch 10: [101|636], loss:1.4143816232681274, accuracy:74.99226485148515
+Training epoch 10: [151|636], loss:1.9320528507232666, accuracy:74.98706539735099
+Training epoch 10: [201|636], loss:1.8890374898910522, accuracy:75.11077425373135
+Training epoch 10: [251|636], loss:1.0033576488494873, accuracy:75.11983316733068
+Training epoch 10: [301|636], loss:0.9888004064559937, accuracy:75.16481519933555
+Training epoch 10: [351|636], loss:3.1798434257507324, accuracy:75.08680555555556
+Training epoch 10: [401|636], loss:1.0651791095733643, accuracy:75.09254208229426
+Training epoch 10: [451|636], loss:1.0927562713623047, accuracy:75.13511640798227
+Training epoch 10: [501|636], loss:0.8610886931419373, accuracy:75.24638223552894
+Training epoch 10: [551|636], loss:1.183359980583191, accuracy:75.21126361161525
+Training epoch 10: [601|636], loss:2.7015628814697266, accuracy:75.3373284109817
+Training epoch 11: [1|636], loss:1.5564872026443481, accuracy:79.296875
+Training epoch 11: [51|636], loss:1.488053560256958, accuracy:74.44087009803921
+Training epoch 11: [101|636], loss:1.5605357885360718, accuracy:75.65362004950495
+Training epoch 11: [151|636], loss:1.5818077325820923, accuracy:75.49151490066225
+Training epoch 11: [201|636], loss:0.9911766648292542, accuracy:75.61606032338308
+Training epoch 11: [251|636], loss:0.7615824937820435, accuracy:75.8824078685259
+Training epoch 11: [301|636], loss:1.4198275804519653, accuracy:75.42955772425249
+Training epoch 11: [351|636], loss:1.252763032913208, accuracy:75.38394764957265
+Training epoch 11: [401|636], loss:1.0277210474014282, accuracy:75.455891521197
+Training epoch 11: [451|636], loss:1.0897598266601562, accuracy:75.62188192904657
+Training epoch 11: [501|636], loss:0.7403748035430908, accuracy:75.54656312375249
+Training epoch 11: [551|636], loss:2.2982120513916016, accuracy:75.50476406533575
+Training epoch 11: [601|636], loss:1.1883755922317505, accuracy:75.43872192179701
+Training epoch 12: [1|636], loss:0.7993457317352295, accuracy:79.6875
+Training epoch 12: [51|636], loss:1.8564434051513672, accuracy:76.43995098039215
+Training epoch 12: [101|636], loss:0.9970324039459229, accuracy:75.82766089108911
+Training epoch 12: [151|636], loss:1.3809806108474731, accuracy:76.32967715231788
+Training epoch 12: [201|636], loss:1.826204776763916, accuracy:75.59468283582089
+Training epoch 12: [251|636], loss:0.6915515065193176, accuracy:75.81548804780877
+Training epoch 12: [301|636], loss:1.3733652830123901, accuracy:75.76827242524917
+Training epoch 12: [351|636], loss:1.1581685543060303, accuracy:75.81463675213675
+Training epoch 12: [401|636], loss:1.1150697469711304, accuracy:75.95074812967582
+Training epoch 12: [451|636], loss:0.9074599742889404, accuracy:75.92156319290466
+Training epoch 12: [501|636], loss:2.004539728164673, accuracy:75.94186626746507
+Training epoch 12: [551|636], loss:1.1732683181762695, accuracy:75.91594827586206
+Training epoch 12: [601|636], loss:0.7284839153289795, accuracy:75.95803868552413
+Training epoch 13: [1|636], loss:1.3867099285125732, accuracy:78.515625
+Training epoch 13: [51|636], loss:0.8843521475791931, accuracy:77.34375
+Training epoch 13: [101|636], loss:0.9863395690917969, accuracy:76.55476485148515
+Training epoch 13: [151|636], loss:0.7435785531997681, accuracy:76.60647764900662
+Training epoch 13: [201|636], loss:0.9885422587394714, accuracy:76.1699315920398
+Training epoch 13: [251|636], loss:1.83953857421875, accuracy:76.15631225099601
+Training epoch 13: [301|636], loss:2.3452935218811035, accuracy:76.09790282392026
+Training epoch 13: [351|636], loss:0.9212421774864197, accuracy:75.88252314814815
+Training epoch 13: [401|636], loss:1.8883460760116577, accuracy:75.98776496259352
+Training epoch 13: [451|636], loss:1.480776309967041, accuracy:75.81069844789357
+Training epoch 13: [501|636], loss:2.037170886993408, accuracy:75.67911052894212
+Training epoch 13: [551|636], loss:1.0662853717803955, accuracy:75.68696120689656
+Training epoch 13: [601|636], loss:0.9878231287002563, accuracy:75.66555740432612
+Training epoch 14: [1|636], loss:1.9015674591064453, accuracy:79.6875
+Training epoch 14: [51|636], loss:1.789062261581421, accuracy:76.06464460784314
+Training epoch 14: [101|636], loss:1.3120794296264648, accuracy:75.37128712871286
+Training epoch 14: [151|636], loss:1.449981927871704, accuracy:76.12531043046357
+Training epoch 14: [201|636], loss:0.966333270072937, accuracy:75.93089241293532
+Training epoch 14: [251|636], loss:1.329277753829956, accuracy:75.61005976095618
+Training epoch 14: [301|636], loss:0.7900208830833435, accuracy:75.82148048172758
+Training epoch 14: [351|636], loss:0.7239325046539307, accuracy:75.84134615384616
+Training epoch 14: [401|636], loss:1.725135326385498, accuracy:75.79099127182045
+Training epoch 14: [451|636], loss:1.137022614479065, accuracy:75.81676136363636
+Training epoch 14: [501|636], loss:0.6593920588493347, accuracy:75.74694361277444
+Training epoch 14: [551|636], loss:0.9303591847419739, accuracy:75.7677801724138
+Training epoch 14: [601|636], loss:1.961060881614685, accuracy:75.83584650582362
+Training epoch 15: [1|636], loss:1.1666381359100342, accuracy:77.34375
+Training epoch 15: [51|636], loss:1.928392767906189, accuracy:72.98560049019608
+Training epoch 15: [101|636], loss:1.4536114931106567, accuracy:74.82982673267327
+Training epoch 15: [151|636], loss:0.9517782330513, accuracy:75.0206953642384
+Training epoch 15: [201|636], loss:2.608236312866211, accuracy:75.11854788557214
+Training epoch 15: [251|636], loss:0.7360163927078247, accuracy:75.62406623505976
+Training epoch 15: [301|636], loss:1.5645743608474731, accuracy:75.58788413621262
+Training epoch 15: [351|636], loss:1.7243601083755493, accuracy:75.6744123931624
+Training epoch 15: [401|636], loss:1.0402740240097046, accuracy:75.80755143391521
+Training epoch 15: [451|636], loss:1.6659828424453735, accuracy:75.6825110864745
+Training epoch 15: [501|636], loss:1.6661206483840942, accuracy:75.60426022954091
+Training epoch 15: [551|636], loss:1.2249104976654053, accuracy:75.4097663339383
+Training epoch 15: [601|636], loss:1.6253111362457275, accuracy:75.5817127703827
+Training epoch 16: [1|636], loss:0.7068420648574829, accuracy:79.6875
+Training epoch 16: [51|636], loss:1.188188910484314, accuracy:75.83486519607843
+Training epoch 16: [101|636], loss:0.7868553996086121, accuracy:76.04037747524752
+Training epoch 16: [151|636], loss:1.1253077983856201, accuracy:75.81746688741723
+Training epoch 16: [201|636], loss:2.1074962615966797, accuracy:75.410059079602
+Training epoch 16: [251|636], loss:1.2611175775527954, accuracy:75.42330677290836
+Training epoch 16: [301|636], loss:1.2708145380020142, accuracy:75.60215946843854
+Training epoch 16: [351|636], loss:1.3568090200424194, accuracy:75.66773504273505
+Training epoch 16: [401|636], loss:2.077308416366577, accuracy:75.82703397755611
